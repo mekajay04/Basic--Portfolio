@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <link href="style.css" rel="stylesheet" type="text/css">
-<title>Untitled Document</title>
+<title>Contact</title>
 </head>
 
 <!--STYLING FOR CONTACT  PAGE-->
@@ -61,6 +61,9 @@ input[type=submit]:hover {
   float: left;
   width : 150px;    
 }
+	.name{
+		margin-top: 10px;
+	}
 	</style>
 	
 	
@@ -74,7 +77,7 @@ input[type=submit]:hover {
 </header>
 
 <body>
-<div class="container">
+<div class="contactcontainer">
 <section id="form">
 
 <form class="subscribeform" name="subscription form" method="get" action="mailto:meka.jay@live.com" enctype="text/plain">
@@ -82,17 +85,17 @@ input[type=submit]:hover {
 <h2><font color="#4aaaa5">Contact</font></h2>
 <hr>
 
-<label>Name: </label>
+<label class="name">Name: </label>
 <br>
-<input type="text" name="Name" placeholder="Your Name"  id="name"/>
+<input type="text" style="text-align: left" name="Name" placeholder="Your Name"  id="name"/>
 <br>
 <label>Email: </label>
 <br>
-<input type="email" placeholder="Email" name="Email"  id="email"/>
+<input type="email" placeholder="Email" style="text-align: left" name="Email"  id="email"/>
 <br>
 <label>Message: </label>
 <br>
-<textarea name="Message" type="text" placeholder="Let's Hear It" cols="50" rows="10" id="comments"></textarea>
+<textarea style="text-align: left" name="Message" type="text" placeholder="Let's Hear It" cols="50" rows="10" id="comments"></textarea>
 <br>
 <input id="submit" type="submit" value="Send">
 </form>

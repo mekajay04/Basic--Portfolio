@@ -26,6 +26,7 @@ html {
 	vertical-align: middle;
 	margin-left: 50px;
 	border: 1px solid #777777;
+	
 }
 
 .contact hr{
@@ -66,7 +67,6 @@ h2{
 	margin-bottom: 30px;
 	margin-top: -28px;
 	font-size: 2em;
-
 }
 
 h3{
@@ -84,6 +84,7 @@ h3{
 	border: #dddddd; 
 
 }
+
 .contact{
 	background: white;
 	display: inline-block;
@@ -94,6 +95,17 @@ h3{
 	border: #dddddd; 
 	
 	
+}
+
+.contactcontainer{
+	width: 660px;
+	height: 800px;
+	margin: 40px;
+	margin-left: 155px;
+	background: white;
+	float: left;
+	border: #dddddd; 
+
 }
 
 #main-bio{
